@@ -23,6 +23,7 @@ https://github.com/guptaria/guptaria.github.io
 
 <h1>Assets</h1>
 ![ScreenShot](assets/image/screenshot1.png)
+![](assets/images/screenshot1.png)
 
 
 <br>
