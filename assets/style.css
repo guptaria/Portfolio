@@ -1,0 +1,244 @@
+body
+{
+    /* coloring and font size for all HTML elements */
+    *box-sizing: border-box; 
+    background-color:#ccf3ff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.big-Image{
+    /* The image used */
+  background-image: url("nature.jpeg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+nav
+{
+    /* Making nav flex to make it responsive */
+    display:flex;
+    height:60px;
+    list-style: none;  
+   
+}
+
+nav ,h1
+{
+    /* nav h1 text decorations */
+
+font-weight: bolder;
+font-size: 40px;
+margin-left: 30px;
+margin-top:20px ;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links
+{
+    /* Aligning the nav links */
+    width:100%;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    padding-left: 100px;
+    text-align: right;
+}
+a:hover
+{
+    /* Adding color when bring mouse over it */
+    background-color: #ddd;
+    color: black;
+}
+
+nav span
+{
+   /* Aligning in span */
+    text-align:right;
+    color:black;
+    padding:20px;
+    font-size: 20px;
+}
+
+nav .bottom-right{
+    /*Adding properties on the text on image */
+    font-family: cursive;
+    text-shadow: 2px 2px 5px;
+    font-size: 50px;
+
+}
+
+.bottom-right {
+    /*Adding properties on the text on image */
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    color:whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    
+  }
+
+.nav-container{
+position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.figure
+{
+    /* Making this absolute, so that image can be moved */
+    position: absolute; 
+    background-image: url("priyacrop.jpeg");
+    height:200px;
+    border-radius: 50%;
+    left: 16px;
+    bottom:0px; 
+}
+main{
+    /* Making main flex for responsive screen */
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1
+}
+
+main, .image1
+{
+  position: relative;
+  font-family: Arial;
+  margin: 0;
+}
+
+main section h1{
+        /* properties on header section on main */
+    font-size:30px;
+    /* font-weight: b; */
+    font-family:serif;
+}
+
+section h1::first-letter
+{
+    /* first letter big */
+    color: black;
+    font-size: 100%;
+  } 
+ 
+  .line{
+      /* this is proprties for left border */
+    border-left: 3px ridge grey;
+    left: 30px;   
+    margin:0px 15px 0px 35px;
+}
+
+p{
+    /* about me paragraph */
+    color:black;
+    font-family: 'Times New Roman', Times, serif!important;
+    font-size: 30px;
+    text-overflow: ellipsis;
+}
+
+section{
+    /* making it flex so that image can move accordingly */
+    display:flex;
+    align-items: stretch; 
+    margin-top: 5%;
+    
+    
+}
+
+section .image1 img{
+    /* Border,padding etc on the image */
+    border-style: solid;
+    border-width: 5px;
+    border-color:whitesmoke;
+    padding: 10px; 
+    flex: 0 0 300px;
+    border-radius: 50px;
+    max-width: 480px; 
+    object-fit: cover;
+    object-position: left;
+    height:300px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+div.image1:hover{
+    /* mouse over it change border color */
+        border-radius: 50px;
+        border: 3px solid grey;
+}
+
+
+.photos{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 2%;
+    margin-right: 3%;
+    justify-content: space-between;  
+}
+
+
+.contact{
+    /* properties for contact info */
+    width:100%;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-left: 0px;
+    margin-left: 20px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact span
+{
+    text-align:left;
+    color:black;
+    padding:20px;
+    font-size: 30px;
+}
+#contact-align .line{
+    margin-left: 10px; 
+
+}
+
+    footer {
+       /* Adding a thankful note in footer */
+        padding: 10px;
+        text-align: center;
+        color: black;
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: bold; 
+        background-image: linear-gradient(white,skyblue);
+
+      }
+
+
+@media screen and (max-width:600px){
+    /* Making nav responsive */
+    nav,main{
+        flex-direction:column;
+    }
+
+}
+@media screen and (max-width:600px){
+    /* Making main images responsive */
+    section .image1 img{
+        width:100%;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
