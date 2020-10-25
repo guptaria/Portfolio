@@ -1,6 +1,3 @@
-portfolio
-
-
 <h1>Overview</h1>
 
 I really enjoyed working on it and spent my time i could on it. It's an expandable Project and will continue add on to this portfolio.
@@ -25,6 +22,8 @@ https://github.com/guptaria/guptaria.github.io
 <br>
 
 <h1>Assets</h1>
+![ScreenShot](assets/image/screenshot1.png)
+
 
 <br>
 
