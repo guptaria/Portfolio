@@ -23,6 +23,13 @@ https://github.com/guptaria/guptaria.github.io
 
 <h1>Assets</h1>
 
+<h2>Screenshots</h2>
+
+![](assets/images/screenshot1.png)
+![](assets/images/Screenshot2.png)
+![](assets/images/Screenshot3.png)
+
+
 
 <br>
 
